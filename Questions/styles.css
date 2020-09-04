@@ -5,9 +5,16 @@ body {
   overflow-y: hidden;
 }
 
+div {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
 #addNew {
     display: table-cell;
     vertical-align: middle;
+    
 }
 
 #mainDiv {
@@ -15,8 +22,14 @@ body {
   padding-left: 35px;
   height: calc(100% - 32px);
   width: 70%;
-  padding-top: 29px;
-  padding-left: 35px;
   overflow-y: hidden;
 }
 
+#quesCard {
+  border: #000000;
+  border-width: 5px;
+}
+
+#questioninput {
+  width: 700px;
+}

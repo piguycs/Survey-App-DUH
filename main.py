@@ -27,7 +27,7 @@ def alogin():
 #Azure SSO more
 @app.route('/azure')
 def sso():
-    #whatever the f goes here
+    #whatever goes here
     return render_template("admin.html")
 
 
